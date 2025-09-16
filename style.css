@@ -11,7 +11,7 @@ body {
 
 
 header {
-  padding: 20px 0;
+  padding: 10px 0;
   position: relative;
   width: 100%;
   z-index: 100;
@@ -21,9 +21,9 @@ header {
 
 header h1 {
   font-family: 'Georgia', cursive; 
-  font-size: 2.5em;
+  font-size: 3em;
   color: #ff69b4; 
-  margin: 0;
+  margin: 0.0;
 }
 
 nav a {
@@ -45,7 +45,7 @@ nav a:hover {
   font-size: 2.5em;
   font-family: 'Georgia', cursive;
   color: #ff69b4;
-  margin: 20px 0 10px;
+  margin: 40px 0 0px;
 }
 
 .products {
@@ -78,7 +78,7 @@ nav a:hover {
 .product p {
   margin-top: 10px;
   font-size: 1em;
-  color: #555;
+  color: #000000;
 }
 
 .shows-content {
@@ -117,8 +117,8 @@ nav a:hover {
 }
 
 .portal-section {
-  padding: 50px 0;
-  background-color: #fde4e4;
+  padding: 20px 0;
+
 }
 
 .portal-image {
@@ -139,10 +139,9 @@ nav a:hover {
 .btn-pink,
 .btn-pink-light,
 .btn-red {
-  padding: 12px 30px;
+  padding: 10px 30px;
   border-radius: 25px;
   text-decoration: none;
-  font-weight: bold;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
@@ -176,6 +175,37 @@ nav a:hover {
   background-color: #e05c9e;
   transform: translateY(-3px);
 }
+
+.container-img-text {
+  display: flex;
+  align-items: center; 
+   
+  margin-bottom: 20px;
+  justify-content: center;
+ 
+  gap: 50px;
+  padding: 20px;
+  flex-wrap: wrap; 
+}
+
+.img-lado-text {
+  max-width: 70%; 
+  height: auto; 
+  width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.text-lado-img {
+  text-align: left;
+  flex: 0.5;
+  font-size: 1.2em;
+  margin: 30px 0;
+  color: #333;
+  
+}
+
 
 @media (max-width: 768px) {
   .section-title {
@@ -211,20 +241,3 @@ nav a:hover {
     width: 90%;
   }
 }
-
-
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-
-.body-index {
-  background-image: url('img/fundo2.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh; }
